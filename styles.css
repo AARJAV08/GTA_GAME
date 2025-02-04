@@ -27,7 +27,7 @@ body {
 } */
 .first{
    
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     background: linear-gradient(to right, #f34848, #3a15aa); /* Gradient background */
     padding: 20px; /* Adds space around the text */
