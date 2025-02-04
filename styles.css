@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
-.hero-banner {
+/* .hero-banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,18 +23,30 @@ body {
     color: white;
     text-shadow: 5px 5px 0px black, 10px 10px 0px rgba(0, 0, 0, 0.5);
     letter-spacing: 3px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; 
+} */
+.first{
+   
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(to right, #f34848, #3a15aa); /* Gradient background */
+    padding: 20px; /* Adds space around the text */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
 }
 
-
-@keyframes pulseGlow {
+.image{
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+/* @keyframes pulseGlow {
     0% {
         box-shadow: 0 0 20px rgba(255, 76, 76, 0);
     }
     100% {
         box-shadow: 0 0 40px rgba(255, 255, 255, 1);
     }
-} 
+}  */
 
 
 .hero {
